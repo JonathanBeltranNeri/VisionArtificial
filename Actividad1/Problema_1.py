@@ -2,8 +2,13 @@
 ##Listas
 ##Problema_1
 # Lista inicial de libros
-Fav_books = ["Los Juegos del Hambre", "La quinta ola", "Narnia", "Jumper", "Maze Runner"]
-
+Fav_books = [ ]
+# Agregar libros a la lista
+Fav_books.append("Los Juegos del Hambre")
+Fav_books.append("La quinta ola")
+Fav_books.append("Narnia")
+Fav_books.append("Jumper")
+Fav_books.append("Maze Runner")
 # Imprimir libros actuales
 print("Mis libros favoritos:")
 for libro in Fav_books:

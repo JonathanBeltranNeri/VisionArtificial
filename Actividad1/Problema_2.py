@@ -1,3 +1,6 @@
+##Jonathan Beltran Neri 22310188
+##diccionario
+##Problema_2
 # Diccionario de amigos y sus edades
 Amigos_inf = {
     "Pedro": 23,
@@ -18,11 +21,11 @@ if new_edad.lower() == "si":  # Convertimos a minúsculas para no tener problema
     nombre_amigo = input("Ingresa el nombre de tu amigo: ")
     
     if nombre_amigo in Amigos_inf:
-        nueva_edad = int(input(f"¿Cuál es la nueva edad de {nombre_amigo}? "))
-        Amigos_inf[nombre_amigo] = nueva_edad
-        print(f"La edad de {nombre_amigo} ha sido actualizada a {nueva_edad}.")
+        nueva_edad = int(input(f"¿Cuál es la nueva edad de {nombre_amigo}? "))# ingresa la nueva edad y lo guarda con input
+        Amigos_inf[nombre_amigo] = nueva_edad# actualiza la edad
+        print(f"La edad de {nombre_amigo} ha sido actualizada a {nueva_edad}.")#imprime la edad nueva
     else:
-        print(f"No tienes un amigo llamado {nombre_amigo}.")
+        print(f"No tienes un amigo llamado {nombre_amigo}.")#si no ingresa el nombre correcto 
 else:
     print("No se actualizará ninguna edad.")
 
